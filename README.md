@@ -1,2 +1,0 @@
-# Dell
-# Dodgers nuevos campeones
