@@ -9,11 +9,14 @@
 </head>
 <body class="bg-light">
 
-  <div class="container mt-5" style="max-width: 500px;">
+  <div id="albumcontainer" class="container mt-5" style="max-width: 500px;">
+    Texto dentro del elemento contenedor
+    <p> Hola </p>
     <div class="card shadow-sm p-4">
       <h2 class="text-center mb-4">Album Tracker</h2>
 
       <form id="albumform">
+        <fieldset>
         <div class="mb-3">
           <label class="form-label">Título</label>
           <input name="Tittle" type="text" class="form-control" placeholder="Siempre es hoy">
@@ -43,7 +46,7 @@
           <label class="form-label">Escuchantes</label>
           <input name="Listened" type="text" class="form-control" placeholder="5.1M">
         </div>
-
+     </fieldset>
         <button type="submit" class="btn btn-primary w-100">Guardar</button>
       </form>
     </div>
